@@ -1,0 +1,475 @@
+
+/*
+* Responsive Media Queries
+*/
+
+@media screen and ( max-width : 1450px){
+    .book-contents{
+        h1{
+            font-size: 4rem;
+        }
+    }
+
+    .button-wraps{   
+        width: 44% !important;
+    }
+    .banner-section{
+        h1{
+            font-size: 2.3rem;
+        }
+    }
+
+    body{
+        p{
+            font-size: 1em;
+        }
+    }
+    
+    .commentSection{
+        padding: 25px;
+    }
+
+    .param-footer{
+        padding: 10px;
+    }
+}
+
+
+@media screen and ( min-width : 1250px){
+    .img-wrapper-form{
+        &:before{
+            content: '';
+            background: linear-gradient(#F04C27,#ee7f66);
+            position: absolute;
+            transform: translate(-25px, 69px);
+            height: 25vh;
+        }
+    }
+    
+    .commentSection{
+        padding: 25px;
+    }
+
+    .param-footer{
+        padding: 10px;
+    }
+}
+
+// @media screen and ( min-width : 1200px){
+//     body{
+//         font-size: 18px;
+//     }
+// }
+
+
+@media screen and ( max-width : 990px){
+ 
+
+    #privacy-policy-content, 
+    #terms-and-conditions-content{
+        margin: 4em 1em !important;
+    }
+
+    .body-author-contents{
+        display: block;
+    }
+
+    .close-mark{
+        display: block !important;
+    }
+
+    .columns{
+        margin: 0 !important;
+    }
+    
+    body{
+        font-size: 14px;    
+    }
+
+    .banner-content-wrapper{
+        width: 100%;
+        padding: 0 10%;
+    } 
+
+    .grid-two-layout-col{
+        grid-template-columns: 1fr 0%;
+    }
+
+    .non-active-nav{
+        display: none;
+    }
+
+    .hamburger-ul{
+        display: block !important;
+    }
+
+    .active-nav{
+        height: 100vh;
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        top: 0;
+        background: #060606;
+        right: 0;
+        
+        ul{
+            text-align: left;
+            transform: translateY(10em);
+            margin: 0 3em;
+            display: flex;
+            flex-direction: column;
+            height: 60vh;
+            justify-content: center;
+
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    
+    }
+
+    /*Update*/
+    .banner-img-col{
+        &:before{
+            display: none;
+        }
+
+        .img-banner-wrapper{
+            img,
+            &:before,
+            &:after{
+                display: none;
+            }
+        }
+    }
+
+    .upper-main,
+    .img-wrapper-form{
+        &:before{
+            display: none;
+        }
+    }
+
+    .book-grid-columns{
+        grid-template-columns: auto;
+    }
+
+    .grid-two-columns{
+        grid-template-columns: auto;
+        height: 100%;
+        padding: 5% 5%;
+    }
+
+    .book-img-wrapper{
+        order:1;
+        align-items: center !important;
+        height: 76vh;
+        img{
+            width: 54%;
+            transform: translateX(0px) !important;
+        }
+    }
+
+    .book-contents{
+        order:2;
+        padding: 9%;
+        button{
+            width: 45%;
+        }
+    }
+
+    
+    .img-wrapper-form{
+        img{
+            width: 90%;
+            margin: 3em 0;
+        }
+    }
+
+    .testimonial-blocks {
+        .grid-block-wrapper{
+            grid-template-columns: auto;
+            margin: 0 11%;
+        }
+    }
+
+    .wrapper-ds{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .commentSection{
+        padding: 25px;
+    }
+
+    .param-footer{
+        padding: 10px;
+    }
+}   
+
+@media screen and (max-width: 650px){
+    .wn-author-name{
+        display: none;
+    }
+
+    .banner-content-wrapper{
+        height: 100vh !important;
+    }
+
+    .book-img-wrapper{
+        height: 55vh;
+    }
+
+    .button-wraps{
+        width: 67% !important;
+    }
+
+    .book-contents{
+        h1{
+            font-size: 2.5rem;
+        }
+    }
+
+    .banner-section{
+        height: 100vh !important;
+    }
+
+    .web-banner{
+        h1{
+            font-size: 2.5em !important;
+        }
+    }
+
+    .wrapperMain{
+        margin:  1em 0 !important;
+    }
+
+    .close-mark{
+        right: 20px;
+    }
+
+    .body-author-contents{
+        padding: 16px !important;
+        margin: 0;
+    }
+    
+
+    body{
+        p{
+            font-size: 1em !important;
+        }
+    }
+
+    .active-nav {
+        li{
+            font-size: 1.3em;
+        }
+    }
+
+    .bookImgContainer {
+        img{
+            width: 100% !important;
+        }
+    }
+
+    .heading-quote{
+        padding: 0 10px !important;
+    }
+
+    .booklinkBlocks {
+        li{
+
+            background: #0e1b23;
+            margin-bottom: 6px;
+            display: block !important;
+            margin-bottom: 0.6em;
+            padding: 10px 4px !important;
+            text-align: center;
+
+            a{
+                padding: 0 !important;
+            }
+        }
+    }
+
+    #author-container{
+        height: 100%;
+        grid-template-columns:auto;
+    }
+
+    .upper-main{
+        #wrapper-two-books{
+            margin: 5% 4%;
+        }
+    }
+
+    .grid-two-columns{
+        grid-template: initial;
+        height: auto;
+    }
+
+    #banner-layout-responsive{
+        height: 90vh !important;
+    }
+
+    .newsletter-section{
+        padding: 12% 0;
+    }
+
+    .author-section{
+        margin: 3.2em 0;
+    }
+
+
+    .wrapper-auth-content {
+        text-align: center;
+        button{
+            display: block;
+            margin: 2em auto;
+        }
+    }
+
+    .banner-img{
+        display: none;
+    }
+
+    .two-grid-column{
+        
+        grid-template-columns: auto !important;
+        width: 100%;
+        display: block !important;
+
+        ul{
+            padding: 0;
+            li{
+                a{
+                    padding: 0 1em;
+                }
+            }
+        }
+    }
+
+    .container-gt{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    .book-wraps{
+        img{
+            width:200px;
+        }
+    }
+
+    .testimonial-section{
+        h1{
+            &:before{
+                content: '';
+                background: #f9bd4f;
+                position: absolute;
+                width: 238px;
+                height: 220px;
+                left: 0%;
+                z-index: -1;
+            }
+        }
+    }
+
+    .upper-main{
+        .content-wrapper-body{
+            button{
+                padding: 20px;
+            }
+        }
+    }
+    
+    .commentSection{
+        padding: 25px;
+    }
+
+
+}
+
+@media screen and (max-width: 450px){
+
+    
+    .commentSection{
+        padding: 25px;
+    }
+
+    .form-newsletter-wrapper{
+        button{
+            display: block;
+            margin: 1em auto;
+        }
+    }
+
+    .banner-section{
+        h1{
+            &:after{
+                content: '';
+                width: 119px;
+                height: 35px;
+                position: absolute;
+                display: block;
+                transform: translate(3px, -24px);
+                background: #ffe0a6;
+                z-index: 1;
+            }
+        }
+    }
+
+    .testimonial-num{
+        transform: translate(-35px, -101px) !important;
+    }
+
+    .testimonial-section{
+        h1{
+            font-size: 3em;
+        }
+    }
+
+    .book-img-wrapper{
+        img{
+            width: 84% !important;
+        }
+    }
+
+    .footer-section{
+        padding: 20% 0;
+    }
+
+    .flex-container-fx{
+        padding: 0 20px;
+        
+        .contactMessage{
+            font-size: 1.5em !important;
+        }
+    }
+
+    .param-footer{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 350px){
+
+    .logo-img{
+        width: 80px;
+    }
+
+    .author-name{
+        font-size: 20px !important;
+    }
+    
+    .banner-section{
+        padding-top: 60px;
+        h1{
+            font-size: 1.8rem;
+        }
+    }
+    
+    .param-footer{
+        padding: 10px;
+    }
+}
