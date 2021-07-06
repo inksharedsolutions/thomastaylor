@@ -3,6 +3,14 @@
 * Responsive Media Queries
 */
 
+@media screen and(max-width : 1880px){
+    .banner-section{
+        h1{
+            font-size: 1.8rem;
+        }
+    }
+}
+
 @media screen and ( max-width : 1450px){
     .book-contents{
         h1{
