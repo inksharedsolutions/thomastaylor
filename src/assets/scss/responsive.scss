@@ -84,6 +84,47 @@
 
 }
 
+@media screen and (max-height: 700px){
+    .banner-section{
+        h1{
+            padding-top: 90px;
+            font-size:1.8rem;
+        }
+    }
+
+    .image-author{
+        &:before{
+            height: 228px;
+            width: 325px;
+        }
+
+        img {
+            width:280px;
+        }
+    }
+}
+
+
+@media screen and (min-height: 700px){
+    .banner-section{
+        h1{
+            padding-top: 90px;
+            font-size:1.8rem;
+        }
+    }
+
+    .image-author{
+        &:before{
+            height: 228px;
+            width: 325px;
+        }
+
+        img {
+            width:280px;
+        }
+    }
+}
+
 // @media screen and ( min-width : 1200px){
 //     body{
 //         font-size: 18px;
