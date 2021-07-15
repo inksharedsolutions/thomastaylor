@@ -33,7 +33,7 @@ const Banner = ()=>{
                                         </span>
                                     </h1>
                                     <p>
-                                    This book addresses in a comprehensive and understandable manner for the lay public the causes of weight gain and its treatment. Americans spend forty million dollars per year on weight-reducing products and techniques....
+                                    Obesity is the major cause of diabetes, heart disease, hypertension and some cancers, leading to premature death. It is the most important factor in causing death from COVID-19.
                                     </p>
 
                                     <button>
