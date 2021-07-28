@@ -33,7 +33,7 @@ const Banner = ()=>{
                                         </span>
                                     </h1>
                                     <p>
-                                    Obesity is the major cause of diabetes, heart disease, hypertension and some cancers, leading to premature death. It is the most important factor in causing death from COVID-19.
+                                    Obesity is the major cause of diabetes, heart disease, hypertension and some cancers, leading to premature death. It is the most important factor in causing death from COVID-19, and is now causing for the first time in centuries a reduction in life expectancy in the United States.
                                     </p>
 
                                     <button>
